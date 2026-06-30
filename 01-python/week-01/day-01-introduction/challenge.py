@@ -1,0 +1,15 @@
+print("=== Personal Information ===")
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+profession = input("Enter your profession: ")
+favorite = input("Enter your favorite techstack: ")
+
+print("\n===== Personal Profile =====")
+print("Name :", name)
+print("Age  :", age)
+print("City :", city)
+print("Profession :", profession)
+print("Favorite :", favorite)
+print("\n============================")
