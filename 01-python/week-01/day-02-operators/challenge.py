@@ -1,0 +1,18 @@
+name = input("Enter your name: ")
+rollNumber = int(input("Enter your roll number: "))
+english = float(input("Enter marks in English: "))
+maths = float(input("Enter marks in Maths: "))
+science = float(input("Enter marks in Science: "))
+
+print("\n=========================")
+print("Student Report Card")
+print("=========================\n")
+
+print(f"Name : {name}")
+print(f"Roll Number : {rollNumber}")
+print(f"English : {english}")
+print(f"Maths : {maths}")
+print(f"Science : {science}\n")
+print(f"Total : {english + maths + science}")
+print(f"Average : {(english + maths + science) / 3 }")
+print(f"Percentage : {((english + maths + science) / 300) * 100 }")
